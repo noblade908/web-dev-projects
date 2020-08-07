@@ -1,0 +1,20 @@
+.jumbotron {
+    text-align: center;
+    background:none;
+}
+
+.section_first-light{
+    background-color: #eceeef;
+
+
+}
+
+.section-second-dark{
+  background-color: grey;
+  color: white;
+}
+
+.carousel-item active {
+
+    height: 450px;
+}

@@ -1,0 +1,28 @@
+.btn
+  display: inline-block
+  font-weight: $font-weight-normal
+  line-height: $base-line-height
+  text-align: center
+  font-size: $font-base
+  vertical-align: middle
+  border-radius: $border-width solid transparent
+  transition: $btn-transition
+  border-radius: $border-radius
+  +btn-sizing($btn-padding-x,$btn-padding-y,$font-base,$border-radius)
+
+.btn-own-lg
+  +btn-sizing(12px , 35px , $font-large, 30px)
+  width: 100%
+
+.btn-own-md
+  +btn-sizing(18px,15px,$font-base,30px)
+  background-color: $brand-primary-light
+
+.btn-dark
+  +btn-variant($btn-main-color,$btn-dark-bg,$btn-border-dark)
+
+.btn-primary
+  +btn-variant($btn-main-color,lighten($btn-primary-bg,20%),$btn-border-primary)
+
+.btn-third
+  +btn-variant($btn-light-color,$btn-third-bg,$btn-border-secondary)

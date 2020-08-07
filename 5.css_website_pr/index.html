@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> My Css Website</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+    <div class="firstbar">
+    <h1>Welcome To Major Wafflez</h1>
+    </div>
+    <nav>
+        <ul class="topNav" id="navBarDrop">
+        <li><a href="#home"> Home</a> </li>
+        <li><a href="#news"> news</a> </li>
+        <li><a href="#about"> About</a> </li>
+        <li><a href="#work"> Work</a> </li>
+        <li><a href="#contact"> Contact</a> </li>
+        <li class="topNav_right"><a href="#signup"> SignUp</a> </li>
+        <li class="topNav_right"><a href="#signin"> SignIn</a> </li>
+        <li class="dropDownicon"> <a href= "javascript:void(0);" onclick="dropmenu()"> &#9776;</a></li>   
+        </ul>
+        </nav>
+    
+    <div class="container" id="section_1_gradient">
+        <div class="row">
+            <div class="col-6">
+                <div class="leftside-col">
+                <h1 class="section-1-header"> Major Wafflez</h1>
+                <h1 class="section-1-header"> Work in progress</h2>
+                </div>
+                <form>
+                    <div class="leftside-col">
+                    <h2>Username</h2>
+                        <input class="username_inputbox" name="username" type="text" placeholder="Username">
+                    <h2>Password</h2>
+                        <input class="password_inputbox" name="password"  type="text" placeholder="Password">
+                    </div>
+                </form>
+            </div>
+            <div class="col-6">
+                <div class="rightside-col">
+                    <div class="video_container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/j-k3TbFwMgI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<script>
+    function dropmenu(){
+    var navbarID = document.getElementById("navBarDrop");
+//    change topNav to topNav responsive
+    if (navbarID.className == "topNav") {
+        navbarID.className += " responsive";
+    } else {
+        navbarID.className = "topNav";
+    }
+        
+    
+    }
+</script>
+    
+    
+<header>
+    <h1 class="section-2-header"> No time like the present </h1>
+</header>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="laptop-15.png" width="110px;" height="110px;">
+                    </div>
+                    <label> What is Lorem Ipsum? </label>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="gamepad-4.png" width="110px;" height="110px;">
+                    </div>
+                    <label> Why do we use it? </label>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="chip.png" width="110px;" height="110px;">
+                    </div>
+                    <label> Where does it come from? </label>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+        <button class="learn_btn">Learn more</button>
+        </div>
+    </div>
+    <hr>
+    <div class="container hey">
+        <div class="row">
+        <div class="col-7 hey">
+            <article>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                </p>
+            </article>
+        </div>
+        <div class="col-5">
+            <div class="drawing_icon">
+                <img src="fl.jpg" width="500px" height="500px">
+            </div>
+        </div>
+        </div>
+    
+    </div>
+    <hr>
+    
+    <footer class="footer_cl">
+        <div class="row">
+            <div class="col-3 footcl">
+            <h1> Personal</h1>
+            <ul>
+                <li>About</li>
+                <li>Blog</li>
+                <li>Career</li>
+            </ul>
+            </div>
+            <div class="col-3 footcl">
+            <h1> Work</h1>
+            <ul>
+                <li>About</li>
+                <li>Blog</li>
+                <li>Career</li>
+            </ul>
+            </div>
+            <div class="col-3 footcl">
+            <h1> Company</h1>
+            <ul>
+                <li>About</li>
+                <li>Blog</li>
+                <li>Career</li>
+            </ul>
+            </div>
+            <div class="col-3 footcl">
+            <h1> Contact</h1>
+            <ul>
+                <li>About</li>
+                <li>Blog</li>
+                <li>Career</li>
+            </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+
+    
+
+</html>

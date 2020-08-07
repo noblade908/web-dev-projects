@@ -1,0 +1,25 @@
+body{
+    background-color: #cc99ff;
+    
+    
+}
+h1{
+    color: darkmagenta;
+    text-align: center
+    
+}
+
+.square_class {
+    width: 100px;
+    height: 100px;
+    background-color: deeppink;
+    margin: auto;
+    
+}
+
+#circle_id {
+    color: darkturquoise;
+    font-size: 40px;
+    
+    
+}

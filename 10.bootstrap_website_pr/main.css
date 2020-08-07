@@ -1,0 +1,62 @@
+.jumbotron {
+    text-align: center;
+    background:none;
+}
+
+.section_first-light{
+    background-color: #eceeef;
+    padding: 2rem;
+    
+}
+
+.section_dark{
+    background-color: #cccccc;
+    padding: 2rem;
+}
+
+.section2_btn_wrapper {
+    
+    margin-top: 20px;
+}
+
+button.section2_btn{
+    background-color: darkorange;
+    color: white;
+    display: block;
+    margin: auto;
+    
+}
+
+h5.modal-title{
+    margin: auto;
+}
+
+button.close.md{
+    margin-left: 0;
+}
+
+.modalForm_wrapper {
+    padding: 1rem;
+    
+}
+
+.img_center{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.btncenter {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.heyo{
+    padding: 1rem;
+}
+
+.footer_img{
+}

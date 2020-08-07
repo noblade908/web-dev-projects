@@ -1,0 +1,64 @@
+
+
+//VARIBALES
+$brand-main:   #6600cc
+$brand-sub: #cc66ff
+$brand-dark: #333
+$brand-light: #e6f2ff
+
+//MIXINS
+=shaping($height, $width,$rad , $bg-col , $col)
+  height:                 $height
+  width:                  $width
+  -webkit-border-radius:  $rad
+  -ms-border-radius:      $rad
+  border-radius:          $rad
+  background-color:       $bg-col
+  color:                  $col
+
+=btn-main($paddin, $rad, $bg,$color)
+  padding: $paddin
+  border-radius: $rad
+  background-color: $bg
+  color: $color
+  border-width: 0
+  border-style: none
+  cursor: pointer
+  margin: auto
+  &:hover
+    background-color: lighten($brand-main, 20%)
+
+
+//STYLES
+body
+  background-color: $brand-light
+
+h1
+  text-align: center
+  padding-top: 20px
+
+section
+  width: 780px
+  margin: auto
+  padding: 20px
+  background-color: $brand-sub
+  color: $brand-dark
+  border-radius: 50px
+  position: relative
+  z-index: -2
+
+   +shaping(120px,120px,20px,$brand-dark,$brand-light)
+  margin: 0 140px -90px
+
+.thumb2
+  +shaping(100px,100px,50%,$brand-sub,white)
+  margin: -20px 700px
+
+.btn-1
+  +btn-main(15px 20px,7px,$brand-main,white)
+
+.btn-2
+  +btn-main(30px ,50%, $brand-dark,white)
+  font-size: 2rem
+  &:hover
+    background-color: darken($brand-dark, 10%)
